@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 12, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/Isaia/WebstormProjects/love-adorned/src/app/page.tsx"],"sourcesContent":["import { Button } from \"flowbite-react\";\r\n\r\nexport default function Home() {\r\n    return (\r\n        <main className=\"h-screen flex items-center justify-center\">\r\n            <Button color=\"blue\">Flowbite Button</Button>\r\n        </main>\r\n    );\r\n}\r\n"],"names":[],"mappings":";;;;AAAA;AAAA;;;AAEe,SAAS;IACpB,qBACI,8OAAC;QAAK,WAAU;kBACZ,cAAA,8OAAC,mLAAA,CAAA,SAAM;YAAC,OAAM;sBAAO;;;;;;;;;;;AAGjC","debugId":null}}]
+}

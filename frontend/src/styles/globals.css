@@ -5,3 +5,17 @@
 body {
     background: white;
 }
+:root {
+    --color-primary: #1d4ed8; /* blue-700 */
+    --color-secondary: #fbbf24; /* amber-400 */
+    --color-accent: #9333ea; /* purple-600 */
+    --color-background: #f9fafb; /* gray-100 */
+    --color-text: #111827; /* gray-900 */
+    --color-hover: #c30d2f
+}
+.hover-underline {
+    @apply transition-colors border-b-2 border-transparent ease-in-out duration-300;
+}
+.hover-underline:hover {
+    border-color: var(--color-hover);
+}

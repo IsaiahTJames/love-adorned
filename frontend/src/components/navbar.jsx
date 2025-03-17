@@ -47,7 +47,22 @@ const Navbar = () => {
                     <li className="p-4 border-b border-gray-600">Home</li>
                     <li className="p-4 border-b border-gray-600">Consultations</li>
                     <li className="p-4 border-b border-gray-600">About</li>
-                    <li className="p-4 border-b border-gray-600">Contact</li>
+                    <li className="p-4 relative hover-underline"
+                        onClick={() => setContactOpen(!contactOpen)}>
+                        Contact
+                        {contactOpen && (
+                            <div className="absolute left-0 top-12 bg-white shadow-md border border-gray-300 rounded-lg w-40">
+                                <a href="https://www.instagram.com/loveadornedbyloritazbah/" target="_blank"
+                                   className="block px-4 py-2 text-black hover:text-blue-700 hover:bg-gray-200 transition-colors duration-200">
+                                    Instagram
+                                </a>
+                                <a href="https://www.facebook.com/LoveAdornedByLT/photos" target="_blank"
+                                   className="block px-4 py-2 text-black hover:text-blue-700 hover:bg-gray-200 transition-colors duration-200">
+                                    Facebook
+                                </a>
+                            </div>
+                        )}
+                    </li>
                 </ul>
             </div>
         </div>

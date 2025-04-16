@@ -13,7 +13,7 @@ const Navbar = () => {
         setContactOpen(false);
     }
     return (
-        <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-black ">
+        <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-black border-b ">
             <img src="/LoveAdornedLogo.png" alt="Love Adorned Logo" className="h-24"/>
             <ul className="hidden md:flex flex-1 justify-end cursor-pointer">
             <li className="p-4 hover-underline">Home</li>
